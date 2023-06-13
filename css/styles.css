@@ -402,7 +402,6 @@ img {
 .menu-btn:is(:hover, :focus) {
   background-color: var(--btn-color);
   color: var(--btn-color-text);
-  border: 1px solid transparent;
 }
 
 /*------------------------APPS--------------------*/
