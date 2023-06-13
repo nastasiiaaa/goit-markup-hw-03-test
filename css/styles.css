@@ -391,7 +391,7 @@ img {
   padding: 12px 24px;
 }
 
-.munu-btn: (: hover) {
+.munu-btn:hover {
   border: 1px solid transparent;
 }
 
@@ -437,6 +437,5 @@ img {
   background: #ffffff;
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
