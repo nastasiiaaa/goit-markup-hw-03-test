@@ -86,6 +86,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .part-logo {
@@ -331,8 +333,6 @@ img {
 }
 
 .footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -389,6 +389,14 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+}
+
+.munu-btn: (: hover) {
+  border: 1px solid transparent;
+}
+
+.menu-btn:focus {
+  border: 1px solid transparent;
 }
 
 .menu-btn:is(:hover, :focus) {
