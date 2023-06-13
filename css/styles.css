@@ -43,7 +43,7 @@ img {
   text-decoration: none;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -101,6 +101,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link:is(:hover, :focus) {
@@ -149,7 +151,7 @@ img {
 }
 
 .hero-btn {
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -163,6 +165,7 @@ img {
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -193,7 +196,7 @@ img {
   margin: 0 auto;
 }
 
-.conteiner-princeples {
+.container-princeples {
   /* display: flex; */
 }
 
@@ -279,11 +282,14 @@ img {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 24px * 3) / 4);
-  /* width: 264px; */
   height: 380px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+}
+
+.container-workers {
+  padding: 32px 16px;
 }
 
 .team-item-title {
@@ -296,6 +302,8 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -306,14 +314,14 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 8px;
+  text-align: center;
 }
 
 /* ---------------FOOTER------------ */
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .part-logo-footer {
@@ -323,6 +331,8 @@ img {
 }
 
 .footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -344,7 +354,7 @@ img {
   padding-bottom: 120px;
 }
 
-.conteiner-btn {
+.container-btn {
   display: flex;
   align-items: center;
 }
