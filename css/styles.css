@@ -194,10 +194,6 @@ img {
   padding-top: 120px;
 }
 
-.visually-hidden {
-  margin: 0 auto;
-}
-
 .container-princeples {
   /* display: flex; */
 }
@@ -391,7 +387,7 @@ img {
   padding: 12px 24px;
 }
 
-.munu-btn:hover {
+.menu-btn:hover {
   border: 1px solid transparent;
 }
 
