@@ -426,7 +426,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 .apps-card-bottom {
