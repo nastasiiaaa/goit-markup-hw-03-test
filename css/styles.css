@@ -111,7 +111,7 @@ img {
 }
 
 .header-adress {
-  font-style: normal;
+  /* font-style: normal; */
   margin-left: auto;
 }
 
@@ -161,7 +161,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--btn-color-text);
-  cursor: pointer;
+  /* cursor: pointer; */
   display: block;
   margin: 0 auto;
   border-radius: 4px;
@@ -232,7 +232,7 @@ img {
 
 .about-title {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -266,7 +266,7 @@ img {
 
 .team-title {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -391,7 +391,7 @@ img {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: var(--back-btn-portfolio);
-  cursor: pointer;
+  /* cursor: pointer; */
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
   border: 1px solid #e7e9fc;
